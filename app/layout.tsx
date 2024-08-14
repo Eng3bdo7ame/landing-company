@@ -1,6 +1,5 @@
 import "./globals.css";
-import { Tajawal } from "next/font/google";
-import { Orbitron } from "next/font/google";
+import { Tajawal, Orbitron } from "next/font/google";
 import Navbar from "../components/Navbar";
 import Footer from "@/components/Footer";
 
