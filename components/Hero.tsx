@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Hero() {
     return (
-        <div>
-
+        <div className='bg-[#5665AE]'>
+            Herooooooooooo
         </div>
     )
 }

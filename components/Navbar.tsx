@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import { FaArrowLeft } from "react-icons/fa";
@@ -35,7 +37,7 @@ export default function Navbar() {
           <div className="flex items-center justify-end gap-3">
             <a
               className="inline-flex items-center justify-center rounded-full W-[55px] h-[55px] border-gray-400 border-4 bg-[#5665AE] px-3 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-150 hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-              href="/login">
+              href="">
               <FaArrowLeft />
             </a>
           </div>
